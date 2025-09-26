@@ -8,11 +8,11 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "plss mau dong",
+        text: "plss mau dong kak",
         image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
     },
     {
-        text: "pls klik yg kiri",
+        text: "pls pls pls",
         image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "MAKSA INI";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
