@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "YEAYYYYY!!!! THANK U KAKK vqsghvwegdsbjs";
+    title.innerHTML = "YEAYYYYY!!!! THANK U KAKK HUAAAAAQOWJAKANJSBWBSBSHSBS";
     document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
